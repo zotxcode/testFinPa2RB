@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_14_153747) do
+ActiveRecord::Schema.define(version: 2020_10_13_193134) do
 
   create_table "links", force: :cascade do |t|
     t.string "href"
