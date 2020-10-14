@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## run ``bundle install`` first
 
-Things you may want to cover:
 
-* Ruby version
+To extract the product, please check the steps below.
 
-* System dependencies
+## via rails console:
 
-* Configuration
+* open terminal
 
-* Database creation
+* type ``rails console `` and then hit enter
 
-* Database initialization
+* type in rails console ``ProductsSpider.process() `` and then hit enter
 
-* How to run the test suite
+* this process takes a long time, wait for it to finish
 
-* Services (job queues, cache servers, search engines, etc.)
+## via web localhost (no timeout)
 
-* Deployment instructions
+* open terminal
 
-* ...
+* type ``rails server `` and then hit enter
+
+* after the server is running, open a browser then type ``http://localhost:3000``
+
+* After the product page appears, you will see a blue button that says 'Scrape'
+
+* press that button and wait for it to finish
